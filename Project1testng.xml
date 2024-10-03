@@ -3,12 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <class name="SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon"/>
+         <class name="SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon"/>
 <class name="SeleniumPackage1.Seleniumproject1.Login_to_Amazon"/>
       <class name="SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin"/>
        <class name="SeleniumPackage1.Seleniumproject1.SearchWithFilters"/> 
   <class name="SeleniumPackage1.Seleniumproject1.SearchProduct"/>
            <class name="SeleniumPackage1.Seleniumproject1.ProductDetails"/>
+           <class name="SeleniumPackage1.Seleniumproject1.ProductSorting"/>
+           <class name="SeleniumPackage1.Seleniumproject1.AddToCart"/>
        
     </classes>
   </test> <!-- Test -->
