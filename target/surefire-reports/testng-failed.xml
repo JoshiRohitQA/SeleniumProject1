@@ -10,6 +10,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- SeleniumPackage1.Seleniumproject1.SearchWithFilters -->
+      <class name="SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon">
+        <methods>
+          <include name="launchAmazon"/>
+          <include name="tearDown"/>
+          <include name="creating_new_account" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
