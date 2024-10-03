@@ -1,45 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[TestCase is passed]]>
     </line>
-    <line>
-      <![CDATA[TestCase is passed]]>
-    </line>
-    <line>
-      <![CDATA[TestCase is passed]]>
-    </line>
-    <line>
-      <![CDATA[TestCase is passed]]>
-    </line>
-    <line>
-      <![CDATA[TestCase is passed]]>
-    </line>
-    <line>
-      <![CDATA[TestCase is passed]]>
-    </line>
-    <line>
-      <![CDATA[TestCase is passed]]>
-    </line>
-    <line>
-      <![CDATA[TestCase is passed]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-10-03T17:42:23 IST" name="Suite" finished-at="2024-10-03T17:44:18 IST" duration-ms="115084">
+  <suite started-at="2024-10-03T23:16:13 IST" name="Suite" finished-at="2024-10-03T23:16:21 IST" duration-ms="8023">
     <groups>
     </groups>
-    <test started-at="2024-10-03T17:42:23 IST" name="Test" finished-at="2024-10-03T17:44:18 IST" duration-ms="115084">
-      <class name="SeleniumPackage1.Seleniumproject1.ProductSorting">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.ProductSorting@7d0b7e3c]" started-at="2024-10-03T17:43:51 IST" name="launchAmazon" finished-at="2024-10-03T17:44:00 IST" duration-ms="8483" status="PASS">
+    <test started-at="2024-10-03T23:16:13 IST" name="Test" finished-at="2024-10-03T23:16:21 IST" duration-ms="8023">
+      <class name="SeleniumPackage1.Seleniumproject1.UpdateCart">
+        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.UpdateCart@73e9cf30]" started-at="2024-10-03T23:16:13 IST" name="launchAmazon" finished-at="2024-10-03T23:16:16 IST" duration-ms="2863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAmazon -->
-        <test-method signature="sortProd(java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.ProductSorting@7d0b7e3c]" started-at="2024-10-03T17:44:00 IST" name="sortProd" data-provider="inputs" finished-at="2024-10-03T17:44:05 IST" duration-ms="4652" status="PASS">
+        <test-method signature="udpateCartProd(java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.UpdateCart@73e9cf30]" started-at="2024-10-03T23:16:16 IST" name="udpateCartProd" data-provider="inputs" finished-at="2024-10-03T23:16:21 IST" duration-ms="4974" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[iphone]]>
+                <![CDATA[usb type c]]>
               </value>
             </param>
           </params>
@@ -48,200 +27,12 @@
               <![CDATA[TestCase is passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- sortProd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.ProductSorting@7d0b7e3c]" started-at="2024-10-03T17:44:05 IST" name="tearDown" finished-at="2024-10-03T17:44:05 IST" duration-ms="147" status="PASS">
+        </test-method> <!-- udpateCartProd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.UpdateCart@73e9cf30]" started-at="2024-10-03T23:16:21 IST" name="tearDown" finished-at="2024-10-03T23:16:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.ProductSorting -->
-      <class name="SeleniumPackage1.Seleniumproject1.ProductDetails">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.ProductDetails@6e9175d8]" started-at="2024-10-03T17:43:36 IST" name="launchAmazon" finished-at="2024-10-03T17:43:43 IST" duration-ms="6902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="verifyProdDetails(java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.ProductDetails@6e9175d8]" started-at="2024-10-03T17:43:43 IST" name="verifyProdDetails" data-provider="inputs" finished-at="2024-10-03T17:43:51 IST" duration-ms="7709" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iphone 15 pro]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestCase is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyProdDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.ProductDetails@6e9175d8]" started-at="2024-10-03T17:43:51 IST" name="tearDown" finished-at="2024-10-03T17:43:51 IST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.ProductDetails -->
-      <class name="SeleniumPackage1.Seleniumproject1.SearchProduct">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.SearchProduct@78e4deb0]" started-at="2024-10-03T17:43:27 IST" name="launchAmazon" finished-at="2024-10-03T17:43:32 IST" duration-ms="4235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="searchPRo(java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.SearchProduct@78e4deb0]" started-at="2024-10-03T17:43:32 IST" name="searchPRo" data-provider="inputs" finished-at="2024-10-03T17:43:36 IST" duration-ms="4600" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shoes]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestCase is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchPRo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.SearchProduct@78e4deb0]" started-at="2024-10-03T17:43:36 IST" name="tearDown" finished-at="2024-10-03T17:43:36 IST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.SearchProduct -->
-      <class name="SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon@4d5650ae]" started-at="2024-10-03T17:42:24 IST" name="launchAmazon" finished-at="2024-10-03T17:42:39 IST" duration-ms="14541" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="creating_new_account(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon@4d5650ae]" started-at="2024-10-03T17:42:39 IST" name="creating_new_account" data-provider="inputs" finished-at="2024-10-03T17:42:44 IST" duration-ms="5712" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rohit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9873733905]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Rj@003037]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestCase is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- creating_new_account -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon@4d5650ae]" started-at="2024-10-03T17:42:44 IST" name="tearDown" finished-at="2024-10-03T17:42:45 IST" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon -->
-      <class name="SeleniumPackage1.Seleniumproject1.Login_to_Amazon">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.Login_to_Amazon@449a4f23]" started-at="2024-10-03T17:42:45 IST" name="launchAmazon" finished-at="2024-10-03T17:42:50 IST" duration-ms="5381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="loginAmz(java.lang.String,java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.Login_to_Amazon@449a4f23]" started-at="2024-10-03T17:42:50 IST" name="loginAmz" data-provider="inputs" finished-at="2024-10-03T17:42:54 IST" duration-ms="3604" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9873733935]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rj@003037]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestCase is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loginAmz -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.Login_to_Amazon@449a4f23]" started-at="2024-10-03T17:42:54 IST" name="tearDown" finished-at="2024-10-03T17:42:55 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.Login_to_Amazon -->
-      <class name="SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin@1530c739]" started-at="2024-10-03T17:42:55 IST" name="launchAmazon" finished-at="2024-10-03T17:43:00 IST" duration-ms="5501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="unsuccesfulLogin(java.lang.String,java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin@1530c739]" started-at="2024-10-03T17:43:00 IST" name="unsuccesfulLogin" data-provider="inputs" finished-at="2024-10-03T17:43:04 IST" duration-ms="3433" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9873733936]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123Rj@42323]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestCase is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- unsuccesfulLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin@1530c739]" started-at="2024-10-03T17:43:04 IST" name="tearDown" finished-at="2024-10-03T17:43:04 IST" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin -->
-      <class name="SeleniumPackage1.Seleniumproject1.AddToCart">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.AddToCart@15bb5034]" started-at="2024-10-03T17:44:05 IST" name="launchAmazon" finished-at="2024-10-03T17:44:11 IST" duration-ms="6216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="addItems(java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.AddToCart@15bb5034]" started-at="2024-10-03T17:44:11 IST" name="addItems" data-provider="inputs" finished-at="2024-10-03T17:44:18 IST" duration-ms="6998" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Daikin 1.5 ton ac]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestCase is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- addItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.AddToCart@15bb5034]" started-at="2024-10-03T17:44:18 IST" name="tearDown" finished-at="2024-10-03T17:44:18 IST" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.AddToCart -->
-      <class name="SeleniumPackage1.Seleniumproject1.SearchWithFilters">
-        <test-method is-config="true" signature="launchAmazon()[pri:0, instance:SeleniumPackage1.Seleniumproject1.SearchWithFilters@5b1669c0]" started-at="2024-10-03T17:43:04 IST" name="launchAmazon" finished-at="2024-10-03T17:43:14 IST" duration-ms="10511" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAmazon -->
-        <test-method signature="searchFilters(java.lang.String)[pri:0, instance:SeleniumPackage1.Seleniumproject1.SearchWithFilters@5b1669c0]" started-at="2024-10-03T17:43:14 IST" name="searchFilters" data-provider="inputs" finished-at="2024-10-03T17:43:27 IST" duration-ms="12556" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shoes]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[TestCase is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchFilters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage1.Seleniumproject1.SearchWithFilters@5b1669c0]" started-at="2024-10-03T17:43:27 IST" name="tearDown" finished-at="2024-10-03T17:43:27 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPackage1.Seleniumproject1.SearchWithFilters -->
+      </class> <!-- SeleniumPackage1.Seleniumproject1.UpdateCart -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
