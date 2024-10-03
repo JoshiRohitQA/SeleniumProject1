@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">69,235</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">SeleniumPackage1.Seleniumproject1.SearchWithFilters</td><td><a href="#m0">searchFilters</a></td><td rowspan="2">1727934246724</td><td rowspan="2">17995</td></tr><tr class="retriedeven"><td><a href="#m1">searchFilters</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin</td><td><a href="#m2">unsuccesfulLogin</a></td><td rowspan="1">1727934240899</td><td rowspan="1">3273</td></tr><tr class="passedodd"><td rowspan="1">SeleniumPackage1.Seleniumproject1.Login_to_Amazon</td><td><a href="#m3">loginAmz</a></td><td rowspan="1">1727934233846</td><td rowspan="1">4088</td></tr><tr class="passedeven"><td rowspan="1">SeleniumPackage1.Seleniumproject1.ProductDetails</td><td><a href="#m4">verifyProdDetails</a></td><td rowspan="1">1727934288289</td><td rowspan="1">5201</td></tr><tr class="passedodd"><td rowspan="1">SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon</td><td><a href="#m5">creating_new_account</a></td><td rowspan="1">1727934227749</td><td rowspan="1">3432</td></tr><tr class="passedeven"><td rowspan="1">SeleniumPackage1.Seleniumproject1.SearchProduct</td><td><a href="#m6">searchPRo</a></td><td rowspan="1">1727934282969</td><td rowspan="1">2781</td></tr><tr class="passedodd"><td rowspan="1">SeleniumPackage1.Seleniumproject1.SearchWithFilters</td><td><a href="#m7">searchFilters</a></td><td rowspan="1">1727934273838</td><td rowspan="1">6517</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">SeleniumPackage1.Seleniumproject1.SearchWithFilters#searchFilters</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>shoes</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at SeleniumPackage1.Seleniumproject1.Amz_SearchResult.click_brandfilter(Amz_SearchResult.java:50)
+	at SeleniumPackage1.Seleniumproject1.SearchWithFilters.searchFilters(SearchWithFilters.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">SeleniumPackage1.Seleniumproject1.SearchWithFilters#searchFilters</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>shoes</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=129.0.6668.60)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0745fe9fa7e7e979c7b4ce9cb200e361, clickElement {id=f.FAC88BD1D39F2699142609E3B8DA888C.d.A3983B53D90C1AEF1FE668257ED98275.e.269}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.60, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\ROHIT~1.JOS\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54964/devtoo..., se:cdpVersion: 129.0.6668.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0745fe9fa7e7e979c7b4ce9cb200e361)] -&gt; xpath: (//a[@class=&apos;a-link-normal s-navigation-item&apos;])[15]]
+Session ID: 0745fe9fa7e7e979c7b4ce9cb200e361
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at SeleniumPackage1.Seleniumproject1.Amz_SearchResult.click_brandfilter(Amz_SearchResult.java:51)
+	at SeleniumPackage1.Seleniumproject1.SearchWithFilters.searchFilters(SearchWithFilters.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">SeleniumPackage1.Seleniumproject1.InvalidCredsofLogin#unsuccesfulLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>9873733936</td><td>123Rj@42323</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">TestCase is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">SeleniumPackage1.Seleniumproject1.Login_to_Amazon#loginAmz</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>9873733935</td><td>Rj@003037</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">TestCase is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">SeleniumPackage1.Seleniumproject1.ProductDetails#verifyProdDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>iphone 15 pro</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">SeleniumPackage1.Seleniumproject1.Resgistartion_to_Amazon#creating_new_account</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Rohit</td><td>9873733905</td><td>Rj@003037</td></tr><tr><th colspan="3">Messages</th></tr><tr><td colspan="3"><div class="messages">TestCase is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">SeleniumPackage1.Seleniumproject1.SearchProduct#searchPRo</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>shoes</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">SeleniumPackage1.Seleniumproject1.SearchWithFilters#searchFilters</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>shoes</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">TestCase is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
