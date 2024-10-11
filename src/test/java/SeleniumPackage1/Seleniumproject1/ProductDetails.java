@@ -40,7 +40,7 @@ public class ProductDetails extends Launch_Quit {
 	
 	@DataProvider(name="inputs")
 	public Object[][] data(){
-		return new Object[][] {{"iphone 15 pro"}};
+		return new Object[][] {{"men watches casio"}};
 	}
 
 }

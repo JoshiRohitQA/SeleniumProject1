@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="SeleniumPackage1.Seleniumproject1.AddToCart">
+      <class name="SeleniumPackage1.Seleniumproject1.EntireCheckout">
         <methods>
-          <include name="addItems" invocation-numbers="0 0 0"/>
           <include name="launchAmazon"/>
+          <include name="checkOutPRod" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- SeleniumPackage1.Seleniumproject1.AddToCart -->
+      </class> <!-- SeleniumPackage1.Seleniumproject1.EntireCheckout -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

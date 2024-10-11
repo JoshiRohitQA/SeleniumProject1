@@ -6,7 +6,7 @@
       <class name="SeleniumPackage1.Seleniumproject1.SearchWithFilters">
         <methods>
           <include name="launchAmazon"/>
-          <include name="searchFilters" invocation-numbers="0"/>
+          <include name="searchFilters" invocation-numbers="0 0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- SeleniumPackage1.Seleniumproject1.SearchWithFilters -->

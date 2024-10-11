@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumPackage1.Seleniumproject1.SearchWithFilters">
+      <class name="SeleniumPackage1.Seleniumproject1.TillCartWithoutLogin">
         <methods>
           <include name="launchAmazon"/>
-          <include name="searchFilters" invocation-numbers="0 0"/>
+          <include name="withoutLoginTillCart" invocation-numbers="0 0"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- SeleniumPackage1.Seleniumproject1.SearchWithFilters -->
+      </class> <!-- SeleniumPackage1.Seleniumproject1.TillCartWithoutLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

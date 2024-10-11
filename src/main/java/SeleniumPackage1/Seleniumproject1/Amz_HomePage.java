@@ -1,6 +1,6 @@
 package SeleniumPackage1.Seleniumproject1;
-import java.time.Duration;
-import java.util.List;
+
+
 
 
 import org.openqa.selenium.WebDriver;
@@ -8,12 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class Amz_HomePage 
 {
 	WebDriver driver;
+	
+	
 	@FindBy(xpath="//span[@class='nav-line-2 ']")
 	WebElement Account_andList;
 	@FindBy(xpath="(//span[.='Sign in'])[1]")
@@ -22,8 +23,11 @@ public class Amz_HomePage
 	@FindBy(xpath="//input[@id='twotabsearchtextbox']")
 	WebElement searchBox;
 	
-	@FindBy(xpath="//div[@class='left-pane-results-container']/div/div")
-	List<WebElement> searchResult;
+	@FindBy(xpath="//a[@id='nav-link-accountList']")
+	WebElement accountsButton;
+	
+	@FindBy(xpath="//a[@class='nav-a nav-a-2   nav-progressive-attribute']")
+	WebElement orders;
 	
 	
 	public void accountlist(WebDriver driver)
@@ -43,10 +47,13 @@ public class Amz_HomePage
 	}
 	
 
-	public void waitforvisibleList() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOfAllElements(searchResult));
-		searchResult.get(2).click();
+	
+	public void clickAccounts() {
+		accountsButton.click();
+	}
+	
+	public void clickOrders() {
+		orders.click();
 	}
 	
 	

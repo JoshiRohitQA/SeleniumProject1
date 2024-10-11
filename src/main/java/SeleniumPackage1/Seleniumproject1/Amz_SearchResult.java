@@ -3,7 +3,7 @@ package SeleniumPackage1.Seleniumproject1;
 
 
 import java.time.Duration;
-
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,7 +29,7 @@ public class Amz_SearchResult {
 	@FindBy(xpath="//div[@class='a-section a-spacing-none s-messaging-widget-results-header']")
 	WebElement verifyResult;
 	
-	@FindBy(xpath="(//div[@class='a-section a-spacing-small a-spacing-top-small'])[2]/div/h2")
+	@FindBy(xpath="//span[@class='a-size-base-plus a-color-base a-text-normal'][.='Vintage A158WA-1DF Black Digital Dial Silver Stainless Steel Band D011']")
 	WebElement searchRes;
 	
 	
@@ -40,11 +40,14 @@ public class Amz_SearchResult {
 	WebElement sortedList;
 	
 	
-	@FindBy(xpath="//button[@id='a-autoid-2-announce']")
+	@FindBy(xpath="(//div[@data-csa-c-action-name='addToCart'])[2]")
 	WebElement addToCart;
 	
 	@FindBy(xpath="//span[@class='a-button a-button-span11 a-button-base a-button-small']")
 	WebElement directToCart;
+	
+	@FindBy(xpath="//div[@class='a-section a-spacing-none puis-padding-right-small s-title-instructions-style']/h2/a")
+	List<WebElement> desiredProd;
 	
 	
 	public void click_deliveryFilter() {
@@ -97,6 +100,11 @@ public class Amz_SearchResult {
 	public void clickDirecttoCart()  {
 		directToCart.click();
 	
+	}
+	
+	public void clickDesireditem() {
+		desiredProd.get(1).click();;
+		
 	}
 	
 	

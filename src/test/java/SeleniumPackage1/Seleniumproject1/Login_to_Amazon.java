@@ -1,5 +1,8 @@
 package SeleniumPackage1.Seleniumproject1;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.FileInputStream;
 import java.io.IOException;
 
@@ -15,7 +18,7 @@ import org.testng.annotations.Test;
 public class Login_to_Amazon extends Launch_Quit{
 
 	@Test(retryAnalyzer = SeleniumPackage1.Seleniumproject1.RetryClass.class,dataProvider = "inputs")
-	public void loginAmz(String mobil ,String Passwordss)  {
+	public void loginAmz(String mobil ,String Passwordss)    {
 		Amz_HomePage hp = new Amz_HomePage(driver);
 		hp.accountlist(driver);
 		hp.signin_click();
@@ -26,6 +29,7 @@ public class Login_to_Amazon extends Launch_Quit{
 
 		lp.inputPassword(Passwordss);
 		lp.clickSignin();
+		
 		
 		
 		Assert.assertTrue(lp.verifyLogin.isDisplayed() && lp.verifyLogin.isEnabled());
